@@ -9,7 +9,8 @@ url = "[https://api.apr.dev](https://api.apr.dev/)"
 
 [provider]
 cluster = "Localnet"
-wallet = "/Users/{YOUR_USERNAME}/.config/solana/id.json" # YOUR_USERNAMEは自分のPCのユーザー名に置き換えてください
+wallet = "/Users/YOUR_USERNAME/.config/solana/id.json"
+# YOUR_USERNAMEは自分のPCのユーザー名に置き換えてください
 
 [scripts]
 test = "yarn run mocha -t 1000000 tests/"
